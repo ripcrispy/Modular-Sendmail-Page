@@ -23,6 +23,8 @@ auditGet($input_message);
 // Configuration
 $subject		= "Website Contact Request from: {$input_name} at {$input_company}";
 $recipient		= "sales@email.com.au";
+$recipient_name	= "Sales";
+$redirection	= "http://www.website.com.au";
 $redir_time		= "10";
 $footer			= "This Email has been automatically generated. For Support please contact Support.";
 $passmsg		= "Thank you! Your Message has been sent successfully. You will be redirected in 10 seconds...";
